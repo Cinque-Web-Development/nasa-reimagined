@@ -1,0 +1,7 @@
+.telescope{
+    color: black;
+}
+
+.item:hover {
+    background-color: blue;
+}

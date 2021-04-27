@@ -2,6 +2,19 @@
     color: black;
 }
 
-.item:hover {
-    background-color: blue;
+#nav-container{
+    background-color: rgb(20, 63, 140);
+}
+
+
+#nasa{
+  color: rgb(233, 78, 52);
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+font-weight: 100;
+
+}
+
+#about{
+    color: white;
 }

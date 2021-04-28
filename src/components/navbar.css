@@ -1,20 +1,11 @@
-.telescope{
-    color: black;
-}
-
-#nav-container{
-    background-color: rgb(20, 63, 140);
-}
-
 
 #nasa{
   color: rgb(233, 78, 52);
   font-size: 2.5rem;
   font-family: 'Roboto', sans-serif;
-font-weight: 100;
-
+  font-weight: 100;
 }
 
-#about{
-    color: white;
+.icon{
+    height: 30px;
 }

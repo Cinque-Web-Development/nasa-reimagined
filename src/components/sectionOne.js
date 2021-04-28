@@ -11,7 +11,7 @@ const SectionOne = () => {
         <p>
           "Explore, discover, and expand knowledge for the benefit of humanity."
         </p>
-        <a href="https://www.nasa.gov/socialmedia" target="_blank" rel="noopener noreferrer" className="follow-button btn btn-light">Follow</a>
+        <a href="https://www.nasa.gov/socialmedia" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary follow-button">Follow</a>
       </div>
     </div>
   );

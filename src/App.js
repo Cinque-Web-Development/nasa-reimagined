@@ -6,7 +6,7 @@ import SectionOne from './components/sectionOne'
 function App() {
   return (
  <>
-   <Navbar/>,
+   <Navbar/>
 <SectionOne/>
 </>
   );

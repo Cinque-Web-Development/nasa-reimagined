@@ -11,27 +11,6 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
 
-
-    <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
-
-
-
-
-{/* 
-
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 " >
       <li className="nav-item dropdown">
@@ -73,7 +52,7 @@ const Navbar = () => {
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-dark" type="submit">Search</button>
       </form>
-    </div>*/}
+    </div>
   </div> 
 </nav>
     

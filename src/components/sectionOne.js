@@ -1,7 +1,10 @@
 import React from 'react';
+import './sectionOne.css'
 
 const SectionOne = () => {
-    return ( <div>Section One</div> );
+    return ( <div className="background">
+
+        </div> );
 }
  
 export default SectionOne;

@@ -5,6 +5,7 @@ const SectionOne = () => {
   return (
     <div className="background">
         <div className="moon-ship-box"><div className="moon"></div></div>
+        <div className="earth-box"><div className="earth"></div></div>
       <div className="text-box">
         <h1>The National Aeronautics and Space Administration </h1>
         <p>

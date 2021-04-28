@@ -6,31 +6,37 @@
     background-color: black;
     height: auto;
     color: white;
+    z-index: auto;
+    
   }
   .moon-ship-box {
     border: solid 2px white;
     padding: 10px;
     margin: 10px;
     width: fit-content;
+    z-index: 2;
   }
   .moon {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     background-color: white;
   }
+
   .earth-box {
-    border: solid 2px white;
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: flex-end;
+    /* border: solid 2px white; */
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    z-index: 1;
+    
   }
   .earth {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+    height:300px;
+    width:155px;
+    border-radius: 200px 0 0 200px;
     background-color: blue;
+    
   }
 
   .text-box {
@@ -41,6 +47,7 @@
     margin: 10px;
     padding: 10px;
     border: solid 2px white;
+    z-index: 3;
   }
 
   .follow-button {

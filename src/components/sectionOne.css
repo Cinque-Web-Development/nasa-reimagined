@@ -5,11 +5,15 @@
     justify-content: flex-end;
     background-color: black;
     height: auto;
-    color: white;
     z-index: auto;
   }
-  .moon-ship-box {
+  .moon-ship-box,
+  .earth-box,
+  .text-box {
     border: solid 2px white;
+  }
+
+  .moon-ship-box {
     padding: 10px;
     margin: 10px;
     width: fit-content;
@@ -19,7 +23,8 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: white;
+    background: rgb(255,255,255);
+background: linear-gradient(326deg, rgba(255,255,255,1) 0%, rgba(229,235,236,1) 70%, rgba(200,198,198,1) 89%);
   }
 
   .ship-box {
@@ -37,7 +42,6 @@
   }
 
   .earth-box {
-    border: solid 2px white;
     position: absolute;
     top: 150px;
     right: 0px;
@@ -47,7 +51,8 @@
     height: 300px;
     width: 155px;
     border-radius: 200px 0 0 200px;
-    background-color: blue;
+    background: rgb(2,0,36);
+    background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(2,1,42,1) 24%, rgba(9,9,121,1) 58%, rgba(0,212,255,1) 100%);
   }
 
   .text-box {
@@ -57,7 +62,7 @@
     flex-flow: column;
     margin: 10px;
     padding: 10px;
-    border: solid 2px white;
+    color: white;
     z-index: 4;
   }
 

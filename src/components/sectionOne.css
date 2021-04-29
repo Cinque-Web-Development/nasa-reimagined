@@ -1,38 +1,43 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+  
   .background {
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
     background-color: black;
     height: auto;
-    z-index: auto;
+    z-index: 0;
   }
   .moon-ship-box,
   .earth-box,
   .text-box {
-    border: solid 2px white;
+    /* border: solid 2px white; */
   }
 
-  .moon-ship-box {
+  .moon-box {
     padding: 10px;
-    margin: 10px;
+   
     width: fit-content;
-    z-index: 2;
+    z-index: 3;
   }
   .moon {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: rgb(255,255,255);
-background: linear-gradient(326deg, rgba(255,255,255,1) 0%, rgba(229,235,236,1) 70%, rgba(200,198,198,1) 89%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      326deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(229, 235, 236, 1) 70%,
+      rgba(200, 198, 198, 1) 89%
+    );
   }
 
   .ship-box {
-    border: solid 2px black;
-    position: absolute;
-    top: 160px;
-    left: 100px;
-    z-index: 3;
+    /* border: solid 2px black; */
+    margin: -50px 0 0 80px;
+    z-index: 4;
+    width: fit-content;
   }
   .ship {
     height: 30px;
@@ -42,17 +47,26 @@ background: linear-gradient(326deg, rgba(255,255,255,1) 0%, rgba(229,235,236,1) 
   }
 
   .earth-box {
-    position: absolute;
-    top: 150px;
-    right: 0px;
-    z-index: 1;
+ display: flex;
+ justify-content: flex-end;
+ /* overflow: hidden; */
+ margin-top: -100px;
+
   }
   .earth {
+    width: fit-content;
+    z-index: 1;
     height: 300px;
     width: 155px;
     border-radius: 200px 0 0 200px;
-    background: rgb(2,0,36);
-    background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(2,1,42,1) 24%, rgba(9,9,121,1) 58%, rgba(0,212,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      326deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(2, 1, 42, 1) 24%,
+      rgba(9, 9, 121, 1) 58%,
+      rgba(0, 212, 255, 1) 100%
+    );
   }
 
   .text-box {
@@ -60,10 +74,10 @@ background: linear-gradient(326deg, rgba(255,255,255,1) 0%, rgba(229,235,236,1) 
     justify-content: center;
     align-items: flex-start;
     flex-flow: column;
-    margin: 10px;
-    padding: 10px;
+    margin:-140px 0 0 0;
+    padding: 10px 30px 10px 10px;
     color: white;
-    z-index: 4;
+    z-index: 5;
   }
 
   .follow-button {

@@ -6,7 +6,7 @@ const SectionOne = () => {
     <div className="background">
       {/* <div class="stars"></div>
       <div class="twinkling"></div> */}
-      <div className="moon-ship-box">
+      <div className="moon-box">
         <div className="moon"></div>
       </div>
       <div className="ship-box">

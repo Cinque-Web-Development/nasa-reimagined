@@ -1,4 +1,7 @@
-
+nav{
+    background-color: white;
+    z-index: 1000;
+}
 #nasa{
   color: rgb(233, 78, 52);
   font-size: 2.5rem;

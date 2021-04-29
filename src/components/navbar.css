@@ -1,6 +1,6 @@
 nav{
     background-color: white;
-    z-index: 10;
+    z-index: 1000;
 }
 #nasa{
   color: rgb(233, 78, 52);

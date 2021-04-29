@@ -4,8 +4,8 @@ import "./sectionOne.css";
 const SectionOne = () => {
   return (
     <div className="background">
-      <div class="stars"></div>
-      <div class="twinkling"></div>
+      {/* <div class="stars"></div>
+      <div class="twinkling"></div> */}
       <div className="moon-ship-box">
         <div className="moon"></div>
       </div>

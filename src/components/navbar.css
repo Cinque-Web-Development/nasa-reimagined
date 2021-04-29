@@ -10,3 +10,8 @@
     height: 30px;
     margin: 0 10px 0 0;
 }
+
+nav{
+    background-color: white;
+    z-index: 10;
+}

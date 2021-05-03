@@ -16,8 +16,8 @@ const SectionOne = () => {
         <div className="earth"></div>
       </div>
       <div className="text-box">
-        <h1>The National Aeronautics and Space Administration </h1>
-        <p>
+        <h1 className="header-title">The National Aeronautics and Space Administration </h1>
+        <p className="nasa-tagline">
           "Explore, discover, and expand knowledge for the benefit of humanity."
         </p>
         <a

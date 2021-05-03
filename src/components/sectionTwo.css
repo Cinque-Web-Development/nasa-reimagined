@@ -1,4 +1,47 @@
-.news-feed{
-    height: 500px;
-    
+.sectiontwo-background {
+  background-color: black;
+  color: white;
+  z-index: 6;
+}
+
+.jupiter-box {
+  padding: 200px 1rem;
+  z-index: 7;
+  margin-left: 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  transform: rotate(30deg);
+
+}
+.jupitertop {
+  height: 200px;
+  width: 400px;
+  border-radius: 500px 500px 0 0;
+  background-color: rgba(245, 245, 32, 0.726);
+  margin-bottom: -5px;
+  z-index: 7;
+  
+}
+.jupiterRing {
+  height: 20px;
+  width: 700px;
+  border-radius: 60%;
+  background-color: yellow;
+  z-index: 10;
+}
+.jupiterBottom {
+  height: 200px;
+  width: 400px;
+  border-radius: 0 0 500px 500px;
+  margin-top: -5px;
+  background-color: rgba(245, 245, 32, 0.726);
+
+}
+
+.news-feed {
+  height: 500px;
+  border: white 2px solid;
+  margin-top: -800px;
+  z-index: 8;
 }

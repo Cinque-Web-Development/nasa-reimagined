@@ -1,0 +1,11 @@
+.APOD {
+    padding: 0.5rem;
+}
+
+.apod-descrip {
+    padding: 1rem 1rem;
+}
+
+.apod-img {
+    width: 100%;
+}

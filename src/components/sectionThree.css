@@ -1,44 +1,42 @@
 .sectThree-background {
   display: flex;
-  align-items: center;
   background-color: rgb(242, 232, 212);
   color: white;
-  height: 500px;
+  height: 600px;
   border: white solid 2px;
-  /* z-index: 15; */
   overflow: hidden;
 }
 
 .mars {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   background-color: rgb(172, 51, 57);
-  margin: 5rem 0 3rem -110px;
-  /* z-index: 16; */
+  margin: 100px 0;
+ 
 }
 
-.spot{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: rgb(211, 64, 61);
-    margin: 5px 0 10px 230px;
-    /* z-index: 17; */
+.spot {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(211, 64, 61);
+  margin: 10px 0 0 170px;
+
 }
-.spot2{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: rgb(136, 40, 56);
-    margin: 50px 0 10px 100px;
-    /* z-index: 17; */
+.spot2 {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: rgb(136, 40, 56);
+  margin: 0px 0 5px 70px;
+ 
 }
-.spot3{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: rgb(218, 95, 58);
-    margin: 60px 0 10px 140px;
-    /* z-index: 17; */
-}
+.spot3 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(218, 95, 58);
+  margin: 60px 0 0 100px;
+  
+} 

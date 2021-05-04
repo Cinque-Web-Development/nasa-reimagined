@@ -1,5 +1,6 @@
 .APOD {
     padding: 0.5rem;
+ 
 }
 
 .apod-descrip {
@@ -8,6 +9,7 @@
 
 .apod-img {
     width: 100%;
+   
 }
 .apod-gallery{
  background-color: rgb(20, 63, 140);

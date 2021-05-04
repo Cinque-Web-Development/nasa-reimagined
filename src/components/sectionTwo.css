@@ -1,6 +1,6 @@
 .sectiontwo-background {
-  background-color: black;
-  color: white;
+  background-color: rgb(242, 232, 212);
+  color: black;
   z-index: 6;
   overflow: hidden;
 }
@@ -19,7 +19,7 @@
   height: 200px;
   width: 400px;
   border-radius: 500px 500px 0 0;
-  background-color: rgba(245, 245, 32, 0.726);
+  background-color: rgb(232, 167, 81);
   margin-bottom: -5px;
   /* z-index: 7; */
   
@@ -28,7 +28,7 @@
   height: 20px;
   width: 700px;
   border-radius: 60%;
-  background-color: yellow;
+  background-color: rgb(255, 230, 0);
   z-index: 10;
   padding-left: 10px;
 }
@@ -37,7 +37,7 @@
   width: 400px;
   border-radius: 0 0 500px 500px;
   margin-top: -15px;
-  background-color: rgba(245, 245, 32, 0.726);
+  background-color: rgb(232, 167, 81);
 
 }
 

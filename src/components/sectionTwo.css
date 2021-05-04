@@ -20,7 +20,7 @@
   height: 270px;
   width: 540px;
   border-radius: 500px 500px 0 0;
-  background-color: rgb(232, 167, 81);
+  background-color: rgb(255, 169, 69);
   margin-bottom: -5px;
   /* z-index: 7; */
   
@@ -29,7 +29,7 @@
   height: 20px;
   width: 950px;
   border-radius: 60%;
-  background-color: rgb(255, 230, 0);
+  background-color: rgb(157, 30, 54);
   z-index: 10;
   padding-left: 10px;
 }
@@ -38,7 +38,7 @@
   width: 540px;
   border-radius: 0 0 500px 500px;
   margin-top: -15px;
-  background-color: rgb(232, 167, 81);
+  background-color: rgb(247, 133, 57);
 
 }
 
@@ -48,3 +48,5 @@
   margin-top: -650px;
   z-index: 8;
 }
+
+

@@ -51,7 +51,7 @@
     height: 300px;
     width: 155px;
     border-radius: 200px 0 0 200px;
-    background-color: rgb(80, 154, 167);
+    background-color: rgba(36, 138, 133, 0.781);
   }
 
   .text-box {
@@ -69,10 +69,11 @@
     padding-left: 1rem;
   }
   .follow-button {
-    background-color: rgba(178, 53, 59, 0.726);
+    background-color: rgba(157, 29, 0, 0.87);
     color: white;
     margin-left: 1rem;
     border: none;
+   
   }
   .follow-button:hover {
     background-color: rgb(50, 103, 201);

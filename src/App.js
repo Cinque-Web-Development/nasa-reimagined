@@ -14,7 +14,7 @@ function App() {
   <SectionOne/>
   <SectionTwo />
   <SectionThree/>
-  <APOD />
+  
 
 </>
   );

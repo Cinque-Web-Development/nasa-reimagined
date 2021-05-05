@@ -3,6 +3,7 @@
   color: black;
   z-index: 6;
   overflow: hidden;
+  border: white solid 2px;
 }
 
 .jupiter-box {
@@ -41,13 +42,6 @@
   margin-top: -15px;
   background-color: rgb(247, 133, 57);
   position: relative;
-}
-
-.news-feed {
-  height: 500px;
-  border: white 2px solid;
-  margin-top: -650px;
-  z-index: 8;
 }
 
 

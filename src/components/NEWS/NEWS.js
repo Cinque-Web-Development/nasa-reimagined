@@ -28,6 +28,7 @@ return(
             title={a.title}
             description={a.description}
             image={a.urlToImage}
+            url={a.url}
             content={a.content}
             source={a.source.name}
             published={a.publishedAt}
@@ -35,7 +36,7 @@ return(
             
         })} 
     </div>
-    ):( "no news")}
+    ):( "loading...")}
     </>
 )
 

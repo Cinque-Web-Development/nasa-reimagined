@@ -14,7 +14,6 @@ const SectionTwo = () => {
         <div className="jupiterBottom"></div>
       </div>
 
-      <div className="news-feed">News Feed</div>
       <APOD />
     </div>
   );

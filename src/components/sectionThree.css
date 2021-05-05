@@ -1,19 +1,19 @@
 .sectThree-background {
-  display: flex;
   background-color: rgb(242, 232, 212);
   color: white;
   height: 600px;
   border: white solid 2px;
   overflow: hidden;
+  position: relative;
 }
 
 .mars {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 50%;
   background-color: rgb(172, 51, 57);
-  margin: 100px 0;
- 
+  margin: 250px 0 0 220px;
+ position: relative;
 }
 
 .spot {
@@ -21,15 +21,15 @@
   width: 100px;
   border-radius: 50%;
   background-color: rgb(211, 64, 61);
-  margin: 10px 0 0 170px;
-
+ margin: 0 0 0 50px;
+position: relative;
 }
 .spot2 {
   height: 70px;
   width: 70px;
   border-radius: 50%;
   background-color: rgb(136, 40, 56);
-  margin: 0px 0 5px 70px;
+  margin: 30px 0 10px 70px;
  
 }
 .spot3 {
@@ -37,6 +37,7 @@
   width: 40px;
   border-radius: 50%;
   background-color: rgb(218, 95, 58);
-  margin: 60px 0 0 100px;
-  
+  margin: 100px 0 0 160px;
+  z-index: 15;
+  position: relative;
 } 

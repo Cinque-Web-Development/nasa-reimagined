@@ -1,9 +1,11 @@
 .APOD {
     padding: 0.5rem;
+    z-index: 100;
+    position: relative;
+    margin-top: 50px;
 }
 
 .apod-descrip {
-
     padding: 1rem 1rem 0.5rem 1rem;
     font-weight: 400;
 }

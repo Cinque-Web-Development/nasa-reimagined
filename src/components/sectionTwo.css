@@ -14,6 +14,7 @@
   align-items: center;
   transform: rotate(30deg);
   margin-top: 50px;
+  position: relative;
  
 }
 .jupitertop {
@@ -23,7 +24,7 @@
   background-color: rgb(255, 169, 69);
   margin-bottom: -5px;
   /* z-index: 7; */
-  
+  position: relative;
 }
 .jupiterRing {
   height: 20px;
@@ -39,7 +40,7 @@
   border-radius: 0 0 500px 500px;
   margin-top: -15px;
   background-color: rgb(247, 133, 57);
-
+  position: relative;
 }
 
 .news-feed {

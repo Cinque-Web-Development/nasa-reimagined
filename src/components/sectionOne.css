@@ -1,10 +1,9 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  
   .background {
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
-    background-color: black;
+    background-color: rgb(242, 232, 212);
     height: auto;
     z-index: 0;
   }
@@ -16,7 +15,6 @@
 
   .moon-box {
     padding: 10px;
-   
     width: fit-content;
     z-index: 3;
   }
@@ -24,13 +22,8 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
-      326deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(229, 235, 236, 1) 70%,
-      rgba(200, 198, 198, 1) 89%
-    );
+    background: rgb(248, 246, 239);
+    margin: 30px 0 0 10px;
   }
 
   .ship-box {
@@ -47,11 +40,10 @@
   }
 
   .earth-box {
- display: flex;
- justify-content: flex-end;
- /* overflow: hidden; */
- margin-top: -100px;
-
+    display: flex;
+    justify-content: flex-end;
+    /* overflow: hidden; */
+    margin-top: -100px;
   }
   .earth {
     width: fit-content;
@@ -59,14 +51,7 @@
     height: 300px;
     width: 155px;
     border-radius: 200px 0 0 200px;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      326deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(2, 1, 42, 1) 24%,
-      rgba(9, 9, 121, 1) 58%,
-      rgba(0, 212, 255, 1) 100%
-    );
+    background-color: rgba(36, 138, 133, 0.781);
   }
 
   .text-box {
@@ -74,15 +59,21 @@
     justify-content: center;
     align-items: flex-start;
     flex-flow: column;
-    margin:-140px 0 0 0;
+    margin: -140px 0 0 0;
     padding: 10px 30px 10px 10px;
-    color: white;
+    color: black;
     z-index: 5;
   }
 
+  .nasa-tagline {
+    padding-left: 1rem;
+  }
   .follow-button {
-    background-color: rgb(20, 63, 140);
+    background-color: rgba(157, 29, 0, 0.87);
     color: white;
+    margin-left: 1rem;
+    border: non
+   
   }
   .follow-button:hover {
     background-color: rgb(50, 103, 201);

@@ -1,0 +1,52 @@
+.sectiontwo-background {
+  background-color: rgb(242, 232, 212);
+  color: black;
+  z-index: 6;
+  overflow: hidden;
+}
+
+.jupiter-box {
+  padding: 50px 1rem;
+  z-index: 7;
+  margin-left: -500px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  transform: rotate(30deg);
+  margin-top: 50px;
+ 
+}
+.jupitertop {
+  height: 270px;
+  width: 540px;
+  border-radius: 500px 500px 0 0;
+  background-color: rgb(255, 169, 69);
+  margin-bottom: -5px;
+  /* z-index: 7; */
+  
+}
+.jupiterRing {
+  height: 20px;
+  width: 950px;
+  border-radius: 60%;
+  background-color: rgb(157, 30, 54);
+  z-index: 10;
+  padding-left: 10px;
+}
+.jupiterBottom {
+  height: 270px;
+  width: 540px;
+  border-radius: 0 0 500px 500px;
+  margin-top: -15px;
+  background-color: rgb(247, 133, 57);
+
+}
+
+.news-feed {
+  height: 500px;
+  border: white 2px solid;
+  margin-top: -650px;
+  z-index: 8;
+}
+
+

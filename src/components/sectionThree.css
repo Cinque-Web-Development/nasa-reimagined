@@ -12,8 +12,8 @@
   width: 400px;
   border-radius: 50%;
   background-color: rgb(172, 51, 57);
-  margin: 250px 0 0 220px;
- position: relative;
+  margin: 0 0 0 100px;
+  z-index: 35;
 }
 
 .spot {
@@ -21,8 +21,8 @@
   width: 100px;
   border-radius: 50%;
   background-color: rgb(211, 64, 61);
- margin: 0 0 0 50px;
-position: relative;
+  margin: 0 0 0 70px;
+  position: relative;
 }
 .spot2 {
   height: 70px;
@@ -30,7 +30,6 @@ position: relative;
   border-radius: 50%;
   background-color: rgb(136, 40, 56);
   margin: 30px 0 10px 70px;
- 
 }
 .spot3 {
   height: 40px;
@@ -40,4 +39,64 @@ position: relative;
   margin: 100px 0 0 160px;
   z-index: 15;
   position: relative;
-} 
+}
+.astronaut-box{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 1rem;
+}
+.astro-b{
+    background-color: white;
+    height: fit-content;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5%;
+    color: black;
+}
+.spaceman{
+    width: 200px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    margin: 1rem;
+}
+.buttons > a {
+ margin: 1rem 0;
+ width: fit-content;
+
+}
+
+/* .boxes-container {
+  width: 50%;
+  border: white solid 2px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  height: 100%;
+  z-index: 40;
+  padding: 0 1rem;
+}
+
+.box1 {
+  height: 300px;
+  width: 30px;
+  background-color: rgb(14, 146, 154);
+  margin-right: 20px;
+  border-radius: 90px 90px 0 0;
+}
+.box2 {
+    height: 450px;
+    width: 30px;
+    background-color: rgb(246, 156, 65);
+    border-radius: 90px 90px 0 0;
+    margin-right: 20px;
+  }
+  .box3 {
+    height: 150px;
+    width: 30px;
+    background-color: rgb(149, 197, 88);
+    border-radius: 90px 90px 0 0;
+  } */

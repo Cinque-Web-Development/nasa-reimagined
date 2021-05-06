@@ -20,8 +20,13 @@ useEffect(() => {
 
 return(
     <>
+    <div className="news-header-container">
+        <h3 className="news-header">News Feed</h3>
+        </div>
     {news ? (
+        
     <div className="news-container">
+        
         {news.map((a,idx) => {
             return <NewsArticle
             key={idx}

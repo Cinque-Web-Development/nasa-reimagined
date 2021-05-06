@@ -1,31 +1,32 @@
 .APOD {
-    padding: 0.5rem;
+    padding: 1rem;
     z-index: 100;
     position: relative;
     margin-top: -118px;
 }
-
+.des-box{
+    margin: 0 0 1rem;
+}
 .apod-descrip {
     padding: 1rem 1rem 0.5rem 1rem;
     font-weight: 400;
+   
 }
-.toggle{
-    text-overflow: ellipsis;
-    height: 100px;
-    overflow: hidden;
-    white-space: nowrap;
-}
+
 .read-more{
     
 }
 
 .apod-img {
     width: 100%;
+    margin-bottom: 1rem;
+  
    
 }
 .apod-gallery{
  background-color: rgb(20, 63, 140);
  color: white;
- margin: 0 1rem 1rem;
+ margin: 0 0 0 1rem;
+ /* margin: 0 1rem 1rem; */
 }
 

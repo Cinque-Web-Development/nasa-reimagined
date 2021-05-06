@@ -4,6 +4,7 @@
   z-index: 6;
   overflow: hidden;
   border: white solid 2px;
+
 }
 
 .jupiter-box {
@@ -14,7 +15,7 @@
   flex-flow: column;
   align-items: center;
   transform: rotate(30deg);
-  margin-top: 50px;
+  margin-top: -400px;
   position: relative;
  
 }

@@ -10,7 +10,7 @@ export default function NEWS(){
 
 async function getNEWS(){
     const newsData= await fetchNews()
-    setNews(newsData.data)
+    setNews(newsData.data.articles.slice(0,10))
     
 }
 
@@ -22,7 +22,7 @@ return(
     <>
     {news ? (
     <div className="news-container">
-        {news.articles.map((a,idx) => {
+        {news.map((a,idx) => {
             return <NewsArticle
             key={idx}
             title={a.title}

@@ -1,6 +1,5 @@
-
-import React, {useState, useEffect} from 'react';
-import './APOD.css';
+import React, { useState, useEffect } from "react";
+import "./APOD.css";
 import fetchAPOD from "../../services/apod-api";
 
 export default function APOD() {
@@ -19,9 +18,24 @@ export default function APOD() {
     <div className="APOD">
       {apod ? (
         <>
-          <h2 className="header-title">{apod.title}</h2>
+          <h2 className="">{apod.title}</h2>
           <img className="apod-img" src={apod.hdurl} alt={apod.title} />
-          <p className="apod-descrip">{apod.explanation}</p>
+
+          <div class="des-box collapse" id="collapseExample">
+            <p class="apod-descrip card card-body">{apod.explanation}</p>
+          </div>
+
+          <button
+            className="btn btn-light read-more"
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Read more...
+          </button>
+
           <a
             href="https://www.nasa.gov/multimedia/imagegallery/iotd.html"
             target="_blank"
@@ -38,5 +52,4 @@ export default function APOD() {
       )}
     </div>
   );
-
-      }
+}

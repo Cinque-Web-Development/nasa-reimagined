@@ -1,0 +1,50 @@
+import React, {useState, useEffect} from 'react';
+import './NEWS.css'
+import fetchNews from '../../services/news-api'
+import NewsArticle from './newsArticle'
+
+
+
+export default function NEWS(){
+    const [news, setNews] = useState("")
+
+async function getNEWS(){
+    const newsData= await fetchNews()
+    setNews(newsData.data.articles.slice(0,10))
+    
+}
+
+useEffect(() => {
+    getNEWS()
+}, [])
+
+return(
+    <>
+    <div className="news-header-container">
+        <h3 className="news-header">News Feed</h3>
+        </div>
+    {news ? (
+        
+    <div className="news-container">
+        
+        {news.map((a,idx) => {
+            return <NewsArticle
+            key={idx}
+            title={a.title}
+            description={a.description}
+            image={a.urlToImage}
+            url={a.url}
+            content={a.content}
+            source={a.source.name}
+            published={a.publishedAt}
+            />
+            
+        })} 
+    </div>
+    ):( "loading...")}
+    </>
+)
+
+
+
+}

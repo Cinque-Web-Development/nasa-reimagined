@@ -1,0 +1,36 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .box {
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    border: white solid 2px;
+    background-color: rgba(231, 229, 229, 0.212);
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .published {
+    font-size: 0.7rem;
+    color: rgb(94, 93, 93);
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .source {
+    font-size: 0.8rem;
+    color: rgb(94, 93, 93);
+  }
+  .news-img {
+    width: 100%;
+  }
+  .link {
+    color: inherit;
+  }
+  .link:visited{
+      color: inherit;
+  }
+}

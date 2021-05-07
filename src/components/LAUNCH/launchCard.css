@@ -1,0 +1,15 @@
+.launch-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.launch-img {
+  height: 200px;
+}

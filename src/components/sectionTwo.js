@@ -4,6 +4,7 @@ import "./sectionTwo.css";
 import APOD from "./APOD/APOD";
 import NEWS from './NEWS/NEWS'
 
+
 const SectionTwo = () => {
   return (
     <div className="sectiontwo-background">
@@ -15,6 +16,7 @@ const SectionTwo = () => {
       </div>
 
       <APOD />
+
     </div>
   );
 };

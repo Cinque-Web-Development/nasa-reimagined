@@ -161,6 +161,17 @@ const Navbar = () => {
                 <img className="icon" src="/images/book.png"></img>
               </a>
             </li>
+            <li>
+              <a
+                className="nav-link"
+                href="https://www.nasa.gov/multimedia/nasatv/index.html#public"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="icon2" src="/images/television.png"></img>
+              </a>
+            </li>
+           
           </ul>
           <form className="d-flex">
             <input

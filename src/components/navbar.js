@@ -84,7 +84,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="icon" src="/images/astronaut.png"></img>
+                <img className="icon" src="/images/astronaut.png"></img> Humans In Space
               </a>
             </li>
             <li className="nav-item">
@@ -94,7 +94,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="icon" src="/images/telescope.png"></img>
+                <img className="icon" src="/images/telescope.png"></img> Space Tech
               </a>
             </li>
             <li className="nav-item dropdown">
@@ -158,7 +158,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="icon" src="/images/book.png"></img>
+                <img className="icon" src="/images/book.png"></img> STEM Engagement
               </a>
             </li>
             <li>
@@ -168,7 +168,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="icon2" src="/images/television.png"></img>
+                <img className="icon2" src="/images/television.png"></img> Nasa TV
               </a>
             </li>
            

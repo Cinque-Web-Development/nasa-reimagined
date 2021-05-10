@@ -33,9 +33,9 @@ export default function LAUNCH() {
              mission={l.launch_description}
             provider={l.provider.name}
                 start={l.date_str}
-            //     end={l.window_end}
-            //     image={l.image}
+            
              location={l.pad.location.name}
+             locationCountry={l.pad.location.country}
             />
             </>
             );

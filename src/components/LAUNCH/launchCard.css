@@ -4,7 +4,7 @@
   align-items: center;
   flex-flow: column wrap;
   color: black;
-  border: 2px white solid;
+  /* border: 2px white solid; */
 
 }
 
@@ -15,5 +15,25 @@
   font-size: 0.5rem;
   margin: 1rem;
   border: 2px white solid;
+  background-color: rgba(231, 229, 229, 0.212);
+  padding: 0.5rem;
 
+
+}
+
+.launch-title{
+  font-size: 1.1rem;
+}
+
+.launch-start{
+  font-size: 0.7rem;
+}
+.launch-provider{
+  font-size: 0.7rem;
+}
+.launch-description{
+  font-size: 0.9rem;
+}
+.launch-location{
+  font-size: 0.7rem;
 }

@@ -19,7 +19,7 @@ export default function LAUNCH() {
     <>
     {launch ? (
         <div className="rocket-container">
-          <h2>Upcoming Launches</h2>
+          <h2 className="upcoming-launches">Upcoming Launches</h2>
            <div className="image-container">
               <img className="rocket-img"src="images/project.png"/>
           </div>

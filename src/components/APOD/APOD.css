@@ -1,4 +1,5 @@
-.APOD {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .APOD {
     padding: 1rem;
     z-index: 100;
     position: relative;
@@ -30,3 +31,4 @@
  /* margin: 0 1rem 1rem; */
 }
 
+}

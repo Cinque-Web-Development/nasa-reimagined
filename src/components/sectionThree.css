@@ -1,4 +1,5 @@
-.sectThree-background {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sectThree-background {
   background-color: rgb(242, 232, 212);
   color: white;
   /* height: 600px; */
@@ -86,4 +87,5 @@
 .astronaut{
     background-color: rgba(35, 137, 138, 0.61);
   
+}
 }

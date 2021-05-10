@@ -1,4 +1,5 @@
-.launch-container {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .launch-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +24,7 @@
 
 .launch-title{
   font-size: 1.1rem;
+  
 }
 
 .launch-start{
@@ -36,4 +38,5 @@
 }
 .launch-location{
   font-size: 0.7rem;
+}
 }

@@ -1,4 +1,5 @@
-.sectiontwo-background {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sectiontwo-background {
   background-color: rgb(242, 232, 212);
   color: black;
   z-index: 6;
@@ -46,3 +47,4 @@
 }
 
 
+}

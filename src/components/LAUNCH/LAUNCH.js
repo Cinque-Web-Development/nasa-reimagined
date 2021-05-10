@@ -8,7 +8,7 @@ export default function LAUNCH() {
 
   async function getLAUNCH() {
     const launchData = await fetchLaunch();
-    setLaunch(launchData.data.results);
+    setLaunch(launchData.data.result);
   }
 
   useEffect(() => {
@@ -17,27 +17,34 @@ export default function LAUNCH() {
 
   return (
     <>
-      {launch ? (
-        <div>
+    {launch ? (
+        <div className="rocket-container">
+          <h2>Upcoming Launches</h2>
+           <div className="image-container">
+              <img className="rocket-img"src="images/project.png"/>
+          </div>
           {launch.map((l, idx) => {
             return ( 
-            <div>{l.name}</div>
-               //<LaunchCard
-               //key={idx}
-              //name={l.name}
-              //   mission={l.mission.description}
-              //   type={l.mission.type}
-              //   start={l.window_start}
-              //   end={l.window_end}
-              //   image={l.image}
-              //   location={l.pad.location.name}
-             // />
+              <>
+             
+            <LaunchCard
+               key={idx}
+              name={l.name}
+             mission={l.launch_description}
+            provider={l.provider.name}
+                start={l.date_str}
+            //     end={l.window_end}
+            //     image={l.image}
+             location={l.pad.location.name}
+            />
+            </>
             );
           })}
         </div>
       ) : (
         "loading.."
-      )}
+      )} 
+   
     </>
   );
 }

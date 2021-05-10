@@ -1,0 +1,27 @@
+.rocket-container{
+    display: flex;
+   
+    flex-flow: column nowrap;
+    /* background-color: green; */
+    width: 100%;
+   padding: 2rem 0;
+    overflow-x: scroll;
+    height: 400px;
+    margin-bottom: 2rem;
+color: black;
+    
+
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    border: white 2px solid;
+    
+    }
+    .rocket-img{
+    width: 75%;
+    }

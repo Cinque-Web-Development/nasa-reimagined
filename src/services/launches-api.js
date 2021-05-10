@@ -3,6 +3,6 @@ const CORS = "https://kstick-cors-anywhere.herokuapp.com/";
 
 
 export default function fetchLaunch(){
-    return axios.get(`${CORS}https://ll.thespacedevs.com/2.0.0/launch/upcoming/`)
+    return axios.get(`${CORS}https://fdo.rocketlaunch.live/json/launches/next/5`)
     .catch((err) => console.log(err))
 }

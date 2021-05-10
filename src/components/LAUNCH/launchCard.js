@@ -1,19 +1,17 @@
 import React from 'react';
 import './launchCard.css'
 
-const LaunchCard = (name, mission, type, start, end, image, location) => {
+const LaunchCard = ({name, mission, provider, start, end, image, location}) => {
     return ( 
         <div className="launch-container">
-    {/* <div className="image-container">
-        <img classname="launch-img" src={image}></img>
-    </div>  */}
+    
 
-    <div>
+    <div className="launches-info">
         <h2>{name}</h2>
-        {/* <p>{mission}</p>
-        <p>{type}</p>
-        <p>{start} - {end}</p>
-        <p>{location}</p> */}
+        <p>{start}</p>
+        <p>{provider}</p>
+      <p>{mission}</p>
+        <p>{location}</p> 
     </div>
     
     </div>

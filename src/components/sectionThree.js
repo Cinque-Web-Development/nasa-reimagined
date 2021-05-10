@@ -38,12 +38,12 @@ const SectionThree = () => {
         
         </div>
       </div>
-
+{/* 
       <div className="mars">
         <div className="spot"></div>
         <div className="spot3"></div>
         <div className="spot2"></div>
-      </div>
+      </div> */}
     </div>
   );
 };

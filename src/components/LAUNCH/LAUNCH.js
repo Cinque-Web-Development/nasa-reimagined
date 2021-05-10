@@ -20,17 +20,18 @@ export default function LAUNCH() {
       {launch ? (
         <div>
           {launch.map((l, idx) => {
-            return (
-              <LaunchCard
-                key={idx}
-                // name={l.name}
-                // mission={l.mission.description}
-                // type={l.mission.type}
-                // start={l.window_start}
-                // end={l.window_end}
-                // image={l.image}
-                // location={l.pad.location.name}
-              />
+            return ( 
+            <div>{l.name}</div>
+               //<LaunchCard
+               //key={idx}
+              //name={l.name}
+              //   mission={l.mission.description}
+              //   type={l.mission.type}
+              //   start={l.window_start}
+              //   end={l.window_end}
+              //   image={l.image}
+              //   location={l.pad.location.name}
+             // />
             );
           })}
         </div>

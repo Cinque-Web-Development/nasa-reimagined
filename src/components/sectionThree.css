@@ -1,10 +1,13 @@
-.sectThree-background {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sectThree-background {
   background-color: rgb(242, 232, 212);
   color: white;
-  height: 600px;
+  /* height: 600px; */
   border: white solid 2px;
   overflow: hidden;
   position: relative;
+  width: 100vw;
+  padding: 1rem;
 }
 
 .mars {
@@ -17,11 +20,11 @@
 }
 
 .spot {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   background-color: rgb(211, 64, 61);
-  margin: 0 0 0 70px;
+  margin: 0px 0 0 70px;
   position: relative;
 }
 .spot2 {
@@ -40,63 +43,49 @@
   z-index: 15;
   position: relative;
 }
-.astronaut-box{
-    display: flex; 
-    justify-content: center; 
+
+.getInvolved-box {
+    font-size: 1.2rem;
+    border: 2px solid white;
+    padding: 1rem 0 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
     align-items: center;
-    gap: 1rem;
+    color: black;
+    /* background-color: blue; */
 }
-.astro-b{
-    background-color: white;
-    height: fit-content;
-    padding: 10px;
-    font-size: 1rem;
+
+.involved-buttons{
+    display: flex;
+    flex-flow: column;
+    /* background-color: green; */
+}
+
+.button{
+    padding: 1rem 3rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 5px 0;
+    /* border: 2px solid white; */
+}
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.411);
     color: black;
 }
-.spaceman{
-    width: 200px;
-}
-.buttons{
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: column wrap;
-    margin: 1rem;
-}
-.buttons > a {
- margin: 1rem 0;
- width: fit-content;
 
+.volunteer{
+    background-color: rgba(248, 144, 33, 0.74);
+  
 }
-
-/* .boxes-container {
-  width: 50%;
-  border: white solid 2px;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-end;
-  height: 100%;
-  z-index: 40;
-  padding: 0 1rem;
+.challenges{
+    background-color: rgba(218, 13, 47, 0.699);
+  
 }
-
-.box1 {
-  height: 300px;
-  width: 30px;
-  background-color: rgb(14, 146, 154);
-  margin-right: 20px;
-  border-radius: 90px 90px 0 0;
+.astronaut{
+    background-color: rgba(35, 137, 138, 0.61);
+  
 }
-.box2 {
-    height: 450px;
-    width: 30px;
-    background-color: rgb(246, 156, 65);
-    border-radius: 90px 90px 0 0;
-    margin-right: 20px;
-  }
-  .box3 {
-    height: 150px;
-    width: 30px;
-    background-color: rgb(149, 197, 88);
-    border-radius: 90px 90px 0 0;
-  } */
+}

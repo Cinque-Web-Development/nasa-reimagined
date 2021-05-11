@@ -6,6 +6,7 @@
     background-color: rgb(242, 232, 212);
     height: auto;
     z-index: 0;
+    
   }
   .moon-ship-box,
   .earth-box,
@@ -69,14 +70,14 @@
     padding-left: 1rem;
   }
   .follow-button {
-    background-color: rgba(157, 29, 0, 0.87);
+    background-color: rgba(218, 13, 47, 0.699);
     color: white;
     margin-left: 1rem;
-    border: non
+    border: none;
    
   }
   .follow-button:hover {
-    background-color: rgb(50, 103, 201);
+    /* background-color: rgb(50, 103, 201); */
     color: white;
   }
 }

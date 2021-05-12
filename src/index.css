@@ -1,9 +1,12 @@
 body {
   margin: 0;
+  background-color: black;
+  /* background-color: rgb(242, 232, 212); */
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 .header-title {

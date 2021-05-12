@@ -16,8 +16,9 @@
       display: flex;
       margin-left: 1.6rem;
       padding-top: 1rem;
+      
   }
   .news-header {
-      color:  black;
+    color: white;
   }
 }

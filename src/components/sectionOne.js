@@ -29,6 +29,10 @@ const SectionOne = () => {
           Follow
         </a>
       </div>
+    
+    <div class="stars"></div>
+    <div class="twinkling"></div><div class="stars"></div>
+    <div class="twinkling"></div>
     </div>
   );
 };

@@ -4,7 +4,8 @@
     display: flex;
     flex-flow: column wrap;
     border: white solid 2px;
-    background-color: rgba(231, 229, 229, 0.212);
+    background-color: rgba(83, 80, 80, 0.507);
+    color: white;
   }
 
   .title {
@@ -13,7 +14,7 @@
 
   .published {
     font-size: 0.7rem;
-    color: rgb(94, 93, 93);
+    color: rgb(218, 209, 209);
   }
 
   .description {
@@ -22,7 +23,7 @@
 
   .source {
     font-size: 0.8rem;
-    color: rgb(94, 93, 93);
+    color: rgb(214, 212, 212);
   }
   .news-img {
     width: 100%;

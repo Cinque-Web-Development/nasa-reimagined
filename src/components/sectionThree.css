@@ -1,7 +1,7 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .sectThree-background {
   /* background-color: rgb(242, 232, 212); */
-  color: white;
+  color: whitesmoke;
   /* height: 600px; */
   /* border: white solid 2px; */
   overflow: hidden;
@@ -16,7 +16,8 @@
   height: 500px;
   width: 500px;
   border-radius: 50%;
-  background-color: rgb(172, 51, 57);
+  background: rgb(157,17,23);
+  background: linear-gradient(326deg, rgba(157,17,23,1) 0%, rgba(182,30,8,1) 66%, rgba(244,123,88,1) 108%);
   margin: -455px 0 2rem 120px;
   z-index: 35;
 }
@@ -54,7 +55,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    color: white;
+    color: whitesmoke;
     position: relative;
     z-index: 50;
     /* background-color: blue; */
@@ -71,13 +72,13 @@
     border-radius: 5%;
     display: flex;
     justify-content: center;
-    color: white;
+    color: whitesmoke;
     margin: 5px 0;
     /* border: 2px solid white; */
 }
 .button:hover{
     background-color: rgba(255, 255, 255, 0.411);
-    color: black;
+    color: rgb(48, 47, 47);
 }
 
 .volunteer{

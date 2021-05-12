@@ -53,7 +53,8 @@
     height: 300px;
     width: 155px;
     border-radius: 200px 0 0 200px;
-    background-color: rgb(36, 138, 133);
+    background: rgb(44,162,157);
+    background: linear-gradient(326deg, rgba(44,162,157,1) 0%, rgba(36,196,185,1) 59%, rgba(68,231,226,1) 99%);
   }
 
   .text-box {
@@ -63,7 +64,7 @@
     flex-flow: column;
     margin: -140px 0 3rem 0;
     padding: 10px 30px 10px 10px;
-    color: white;
+    color: whitesmoke;
     z-index: 70;
   }
 
@@ -72,14 +73,14 @@
   }
   .follow-button {
     background-color: rgba(218, 13, 47, 0.699);
-    color: white;
+    color: whitesmoke;
     margin-left: 1rem;
     border: none;
    
   }
   .follow-button:hover {
     /* background-color: rgb(50, 103, 201); */
-    color: white;
+    color: whitesmoke;
   }
 
 

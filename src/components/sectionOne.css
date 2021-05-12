@@ -3,9 +3,10 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
-    background-color: rgb(242, 232, 212);
+    /* background-color: rgb(242, 232, 212); */
     height: auto;
     z-index: 0;
+   
     
   }
   .moon-ship-box,
@@ -48,11 +49,11 @@
   }
   .earth {
     width: fit-content;
-    z-index: 1;
+    z-index: 60;
     height: 300px;
     width: 155px;
     border-radius: 200px 0 0 200px;
-    background-color: rgba(36, 138, 133, 0.781);
+    background-color: rgb(36, 138, 133);
   }
 
   .text-box {
@@ -62,8 +63,8 @@
     flex-flow: column;
     margin: -140px 0 3rem 0;
     padding: 10px 30px 10px 10px;
-    color: black;
-    z-index: 5;
+    color: white;
+    z-index: 70;
   }
 
   .nasa-tagline {
@@ -80,4 +81,6 @@
     /* background-color: rgb(50, 103, 201); */
     color: white;
   }
+
+
 }

@@ -1,21 +1,23 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .sectThree-background {
-  background-color: rgb(242, 232, 212);
+  /* background-color: rgb(242, 232, 212); */
   color: white;
   /* height: 600px; */
-  border: white solid 2px;
+  /* border: white solid 2px; */
   overflow: hidden;
   position: relative;
   width: 100vw;
   padding: 1rem;
+  z-index: 45;
+  margin-bottom: 5rem;
 }
 
 .mars {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   border-radius: 50%;
   background-color: rgb(172, 51, 57);
-  margin: 0 0 0 100px;
+  margin: -455px 0 2rem 120px;
   z-index: 35;
 }
 
@@ -40,7 +42,7 @@
   border-radius: 50%;
   background-color: rgb(218, 95, 58);
   margin: 100px 0 0 160px;
-  z-index: 15;
+  /* z-index: 15; */
   position: relative;
 }
 
@@ -48,11 +50,13 @@
     font-size: 1.2rem;
     border: 2px solid white;
     padding: 1rem 0 2rem;
-    margin: 1rem;
+    margin: 1rem 1rem 5rem;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    color: black;
+    color: white;
+    position: relative;
+    z-index: 50;
     /* background-color: blue; */
 }
 
@@ -88,4 +92,7 @@
     background-color: rgba(35, 137, 138, 0.61);
   
 }
+
+
+
 }

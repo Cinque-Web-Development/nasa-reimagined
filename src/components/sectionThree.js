@@ -5,7 +5,7 @@ import LAUNCH from "./LAUNCH/LAUNCH";
 const SectionThree = () => {
   return (
     <div className="sectThree-background">
-      {/* <LAUNCH/> */}
+      <LAUNCH/>
 
       <div className="getInvolved-box">
         <h2>Get Involved</h2>

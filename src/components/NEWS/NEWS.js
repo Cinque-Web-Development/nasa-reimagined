@@ -9,8 +9,8 @@ export default function NEWS(){
     const [news, setNews] = useState("")
 
 async function getNEWS(){
-    const newsData= await fetchNews()
-    setNews(newsData.data.articles.slice(0,10))
+    const newsData = await fetchNews()
+    setNews(newsData.data.hits)
     
 }
 
@@ -32,11 +32,11 @@ return(
             key={idx}
             title={a.title}
             description={a.description}
-            image={a.urlToImage}
+            image={a.imageUrl}
             url={a.url}
             content={a.content}
-            source={a.source.name}
-            published={a.publishedAt}
+            source={a.source}
+            published={a.pubDate}
             />
             
         })} 

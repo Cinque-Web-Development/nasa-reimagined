@@ -5,10 +5,10 @@
     flex-flow: row wrap;
     gap: 1rem;
     overflow-y: scroll;
-    height: 400px;
+    height: 600px;
     position: relative;
-    z-index: 200;
-    margin: 1rem;
+    z-index: 400;
+    margin: 1rem 1rem;
     padding-bottom: 2rem;
     border: rgba(245, 245, 245, 0.541) 2px solid;
   }
@@ -17,10 +17,11 @@
       display: flex;
       margin-left: 1.6rem;
       padding-top: 1rem;
-      z-index: 500;
+     
       
   }
   .news-header {
     color: whitesmoke;
+    z-index: 500;
   }
 }

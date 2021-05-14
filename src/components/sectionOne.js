@@ -4,13 +4,19 @@ import "./sectionOne.css";
 const SectionOne = () => {
   return (
     <div className="background">
-      {/* <div class="stars"></div>
-      <div class="twinkling"></div> */}
+      <div class="stars"></div>
+      <div class="twinkling"></div>
       <div className="moon-box">
-        <div className="moon"></div>
+        <div className="moon">
+          <div className="crater-box">
+          <div className="crater2"></div>
+          <div className="crater"></div>
+         
+          </div>
+        </div>
       </div>
       <div className="ship-box">
-        <div className="ship"></div>
+        <img className="ship" src="images/rocket.png"></img>
       </div>
       <div className="earth-box">
         <div className="earth"></div>

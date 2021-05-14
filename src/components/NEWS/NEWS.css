@@ -7,15 +7,17 @@
     overflow-y: scroll;
     height: 400px;
     position: relative;
-    z-index: 30;
-    margin: 10px;
-    padding-bottom: 1rem;
+    z-index: 200;
+    margin: 1rem;
+    padding-bottom: 2rem;
+    border: rgba(245, 245, 245, 0.541) 2px solid;
   }
 
   .news-header-container {
       display: flex;
       margin-left: 1.6rem;
       padding-top: 1rem;
+      z-index: 500;
       
   }
   .news-header {

@@ -18,7 +18,10 @@
   .moon-box {
     padding: 10px;
     width: fit-content;
-    z-index: 3;
+    z-index: 80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .moon {
     height: 150px;
@@ -27,19 +30,85 @@
     background: rgb(248, 246, 239);
     margin: 30px 0 0 10px;
   }
+  .crater-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+  .crater2{
+    height: 35px;
+    width: 35px;
+   margin-left: 30px;
+    border-radius: 50%;
+    background: rgba(202, 201, 197, 0.233);
+  }
+  .crater{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: rgba(202, 201, 197, 0.151);
+    z-index: 400;
+    margin-top: 20px;
+    
+ 
+  }
 
   .ship-box {
     /* border: solid 2px black; */
-    margin: -50px 0 0 80px;
+    margin: -40px 0 0 80px;
     z-index: 4;
     width: fit-content;
+   display: flex;
+/* background-color: yellow; */
+margin-left: 200px;
+    /* animation: ships 10s infinite;*/
+    transform: rotate(250deg); 
+
+    -webkit-animation: slide-tl 5s cubic-bezier(0.250, 0.460, 0.450, 0.970) both;
+	        animation: slide-tl 5s cubic-bezier(0.250, 0.460, 0.450, 0.970) both infinite;
+    
   }
   .ship {
-    height: 30px;
+    height: 50px;
     width: 50px;
-    border-radius: 50%;
-    background-color: rgb(255, 217, 0);
+    transform: rotate(270deg); 
+    
+   
   }
+
+
+  @-webkit-keyframes slide-tl {
+    0% {
+      -webkit-transform: translateY(0) translateX(0);
+              transform: translateY(0) translateX(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px) translateX(-100px);
+              transform: translateY(-100px) translateX(-100px);
+    }
+  }
+  @keyframes slide-tl {
+    0% {
+      -webkit-transform: translateY(0) translateX(0);
+              transform: translateY(0) translateX(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px) translateX(-100px);
+              transform: translateY(-100px) translateX(-100px);
+    }
+  }
+  
+  /* @keyframes ships{
+    0%   {left:500px; top:600px;}
+    50%  {left:500px; top:600px;}
+    75%  {left:400px; top:400px;}
+    100% {left:-150px; top:100px;}
+  
+  }      */
+
 
   .earth-box {
     display: flex;
@@ -82,6 +151,100 @@
     /* background-color: rgb(50, 103, 201); */
     color: whitesmoke;
   }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgba(33, 33, 33, 0.9);
+    color:#ffffff;
+    display:block;
+    font: 14px/1.3 Arial,sans-serif;
+    height:50px;
+    position:relative;
+    z-index:5;
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+header h2{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+header a, a:visited {
+    text-decoration:none;
+    color:#fcfcfc;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+
+
 
 
 }

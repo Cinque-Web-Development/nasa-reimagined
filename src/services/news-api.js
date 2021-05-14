@@ -7,6 +7,6 @@ const options = {
 };
 
 export default function fetchNews() {
-   return axios.get(`${CORS}api.datanews.io/v1/news?q=Nasa News&from=2020-07-01&to=2021-05-10&language=en`, options)
+   return axios.get(`${CORS}api.datanews.io/v1/news?q=Nasa News&from=2021-01-01&to=2021-09-01&language=en`, options)
    .catch((err) => console.log(err));
 }

@@ -17,11 +17,12 @@ export default function LAUNCH() {
 
   return (
     <>
+     <h2 className="upcoming-launches">Upcoming Launches</h2>
     {launch ? (
         <div className="rocket-container">
-          <h2 className="upcoming-launches">Upcoming Launches</h2>
+         
            <div className="image-container">
-              <img className="rocket-img"src="images/earth-rocket-space-elements-this-600w-1921597631.webp"/>
+              <img className="rocket-img"src="images/launch.jpg"/>
           </div>
           {launch.map((l, idx) => {
             return ( 

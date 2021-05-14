@@ -9,7 +9,8 @@
     position: relative;
     z-index: 30;
     margin: 10px;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    border: rgba(245, 245, 245, 0.541) 2px solid;
   }
 
   .news-header-container {

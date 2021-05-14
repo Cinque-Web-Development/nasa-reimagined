@@ -33,13 +33,28 @@
     margin: -50px 0 0 80px;
     z-index: 4;
     width: fit-content;
+    position: absolute;
+    top: 240px;
+    /* animation: ships 10s infinite;*/
+    transform: rotate(260deg); 
+    
   }
   .ship {
-    height: 30px;
+    height: 40px;
     width: 50px;
     border-radius: 50%;
-    background-color: rgb(255, 217, 0);
+    
+   
   }
+
+  /* @keyframes ships{
+    0%   {left:500px; top:600px;}
+    50%  {left:500px; top:600px;}
+    75%  {left:400px; top:400px;}
+    100% {left:-150px; top:100px;}
+  
+  }      */
+
 
   .earth-box {
     display: flex;

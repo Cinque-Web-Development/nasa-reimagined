@@ -10,7 +10,7 @@ const SectionOne = () => {
         <div className="moon"></div>
       </div>
       <div className="ship-box">
-        <div className="ship"></div>
+        <img className="ship" src="images/spacecraft.png"></img>
       </div>
       <div className="earth-box">
         <div className="earth"></div>

@@ -13,8 +13,10 @@
     border: rgba(245, 245, 245, 0.541) 2px solid;
   }
 
-  .upcoming-launches {
-    padding-left: 1rem;
+  #upcoming-launches {
+    /* padding-left: 1rem; */
+    margin-top: 3rem;
+    text-align: start;
   }
 
   .image-container {

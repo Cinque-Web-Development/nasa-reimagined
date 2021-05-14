@@ -7,7 +7,10 @@ import NEWS from './NEWS/NEWS'
 
 const SectionTwo = () => {
   return (
+    <>
+    
     <div className="sectiontwo-background">
+       
         <NEWS/>
       <div className="jupiter-box">
         <div className="jupitertop"></div>
@@ -18,6 +21,7 @@ const SectionTwo = () => {
       <APOD />
 
     </div>
+    </>
   );
 };
 

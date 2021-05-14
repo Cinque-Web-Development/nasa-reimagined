@@ -18,7 +18,7 @@ export default function APOD() {
     <div className="APOD">
       {apod ? (
         <>
-          <h2 className="">{apod.title}</h2>
+          <h2 id="apod-title">{apod.title}</h2>
           <img className="apod-img" src={apod.hdurl} alt={apod.title} />
 
           <div class="des-box collapse" id="collapseExample">

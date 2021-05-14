@@ -17,7 +17,7 @@ export default function LAUNCH() {
 
   return (
     <>
-     <h2 className="upcoming-launches">Upcoming Launches</h2>
+     <h2 id="upcoming-launches">Upcoming Launches</h2>
     {launch ? (
         <div className="rocket-container">
          

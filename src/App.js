@@ -10,6 +10,7 @@ import SectionThree from './components/sectionThree'
 function App() {
   return (
  <>
+ 
    <Navbar/>
   <SectionOne/>
   <SectionTwo />

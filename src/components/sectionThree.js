@@ -5,8 +5,9 @@ import LAUNCH from "./LAUNCH/LAUNCH";
 const SectionThree = () => {
   return (
     <div className="sectThree-background">
+     
       <LAUNCH/>
-
+      
       <div className="getInvolved-box">
         <h2>Get Involved</h2>
         <div className="involved-buttons">
@@ -48,6 +49,7 @@ const SectionThree = () => {
         <a href="https://www.nasa.gov/about/contact/index.html" target="_blank"
           rel="noopener noreferrer">Contact NASA</a>
       </div>
+    
     </div>
   );
 };

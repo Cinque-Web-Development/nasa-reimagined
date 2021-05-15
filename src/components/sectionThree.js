@@ -46,8 +46,10 @@ const SectionThree = () => {
         <div className="spot2"></div> */}
       </div>
       <div id="footer">
-        <a href="https://www.nasa.gov/about/contact/index.html" target="_blank"
-          rel="noopener noreferrer">Contact NASA</a>
+     <a href="https://www.linkedin.com/in/erikatidwell/" target="_blank"
+          rel="noopener noreferrer" id="icon-social">LinkedIn</a>
+          <a href="https://github.com/erikacolette29" target="_blank"
+          rel="noopener noreferrer" id="icon-social">Github</a>
       </div>
     
     </div>

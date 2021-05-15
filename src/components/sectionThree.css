@@ -94,6 +94,20 @@
   
 }
 
+.footer{
+z-index: 600;
+}
+
+
+
+#icon-social{
+color: rgb(72, 105, 252);
+ height: 30px;
+ width: 30px;
+ margin: 0 20px 20px 0;
+ font-size: 1rem;
+}
+
 
 
 }

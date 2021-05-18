@@ -1,20 +1,21 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .rocket-container {
+  
     display: flex;
-
-    flex-flow: column nowrap;
-    /* background-color: green; */
-    width: 100%;
-    padding: 2rem 0;
+    flex-flow: row wrap;
     overflow-y: scroll;
-    height: 400px;
-    margin-bottom: 3rem;
+    height: 600px;
+    position: relative;
+    z-index: 400;
+    margin: 1rem 2rem 3rem 0;
     color: whitesmoke;
     border: rgba(245, 245, 245, 0.541) 2px solid;
+       
+    padding-bottom: 2rem;
   }
 
   #upcoming-launches {
-    /* padding-left: 1rem; */
+   
     margin-top: 3rem;
     text-align: start;
   }
@@ -25,6 +26,7 @@
     align-items: center;
     padding: 0 1rem;
     width: 100%;
+    margin: 1rem 0;
     /* border: white 2px solid; */
   }
   .rocket-img {

@@ -33,17 +33,15 @@ const SectionThree = () => {
             rel="noopener noreferrer"
             className="volunteer button"
           >
-            Voluneer
+            Volunteer
           </a>
          
         
         </div>
       </div>
 
-      <div className="mars">
-        {/* <div className="spot"></div> */}
-        {/* <div className="spot3"></div>
-        <div className="spot2"></div> */}
+      <div id="mars">
+       
       </div>
       <div id="footer">
      <a href="https://www.linkedin.com/in/erikatidwell/" target="_blank"
@@ -51,6 +49,8 @@ const SectionThree = () => {
           <a href="https://github.com/erikacolette29" target="_blank"
           rel="noopener noreferrer" id="icon-social">Github</a>
       </div>
+      {/* <div class="stars"></div>
+      <div class="twinkling"></div> */}
     
     </div>
   );

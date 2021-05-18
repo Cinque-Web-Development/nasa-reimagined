@@ -10,7 +10,8 @@ const SectionTwo = () => {
     <>
     
     <div className="sectiontwo-background">
-       
+    <div class="stars"></div>
+      <div class="twinkling"></div>
         <NEWS/>
       <div className="jupiter-box">
         <div className="jupitertop"></div>

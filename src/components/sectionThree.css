@@ -1,57 +1,63 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .sectThree-background {
-  /* background-color: rgb(242, 232, 212); */
-  color: whitesmoke;
-  /* height: 600px; */
-  /* border: white solid 2px; */
-  overflow: hidden;
-  position: relative;
-  width: 100vw;
-  padding: 1rem;
-  z-index: 45;
-  margin-bottom: 5rem;
-}
+    /* background-color: rgb(242, 232, 212); */
+    color: whitesmoke;
+    /* height: 600px; */
+    /* border: white solid 2px; */
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    padding: 1rem;
+    z-index: 0;
+    margin-bottom: 5rem;
+   
+  }
 
-.mars {
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
-  background: rgb(157,17,23);
-  background: linear-gradient(326deg, rgba(157,17,23,1) 0%, rgba(182,30,8,1) 66%, rgba(244,123,88,1) 108%);
-  margin: -455px 0 2rem 120px;
-  z-index: 35;
-}
+  .mars {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: rgb(157, 17, 23);
+    background: linear-gradient(
+      326deg,
+      rgba(157, 17, 23, 1) 0%,
+      rgba(182, 30, 8, 1) 66%,
+      rgba(244, 123, 88, 1) 108%
+    );
+    margin: -455px 0 2rem 120px;
+    z-index: 35;
+  }
 
-.spot {
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
-  background-color: rgb(211, 64, 61);
-  margin: 0px 0 0 70px;
-  position: relative;
-}
-.spot2 {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  background-color: rgb(136, 40, 56);
-  margin: 30px 0 10px 70px;
-}
-.spot3 {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: rgb(218, 95, 58);
-  margin: 100px 0 0 160px;
-  /* z-index: 15; */
-  position: relative;
-}
+  .spot {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: rgb(211, 64, 61);
+    margin: 0px 0 0 70px;
+    position: relative;
+  }
+  .spot2 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(136, 40, 56);
+    margin: 30px 0 10px 70px;
+  }
+  .spot3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(218, 95, 58);
+    margin: 100px 0 0 160px;
+    /* z-index: 15; */
+    position: relative;
+  }
 
-.getInvolved-box {
+  .getInvolved-box {
     font-size: 1.2rem;
     border: 2px solid white;
     padding: 1rem 0 2rem;
-    margin: 1rem 1rem 5rem;
+    margin: 1rem 2rem 5rem 0rem;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -59,15 +65,15 @@
     position: relative;
     z-index: 50;
     /* background-color: blue; */
-}
+  }
 
-.involved-buttons{
+  .involved-buttons {
     display: flex;
     flex-flow: column;
     /* background-color: green; */
-}
+  }
 
-.button{
+  .button {
     padding: 1rem 3rem;
     border-radius: 5%;
     display: flex;
@@ -75,39 +81,31 @@
     color: whitesmoke;
     margin: 5px 0;
     /* border: 2px solid white; */
-}
-.button:hover{
+  }
+  .button:hover {
     background-color: rgba(255, 255, 255, 0.411);
     color: rgb(48, 47, 47);
-}
+  }
 
-.volunteer{
+  .volunteer {
     background-color: rgba(248, 144, 33, 0.74);
-  
-}
-.challenges{
-    background-color: rgba(218, 13, 47, 0.699);
-  
-}
-.astronaut{
-    background-color: rgba(35, 137, 138, 0.61);
-  
-}
+  }
+  .challenges {
+    background-color: rgba(235, 57, 87, 0.699);
+  }
+  .astronaut {
+    background-color: rgba(47, 124, 168, 0.575);
+  }
 
-.footer{
-z-index: 600;
-}
+  .footer {
+    z-index: 600;
+  }
 
-
-
-#icon-social{
-color: rgb(72, 105, 252);
- height: 30px;
- width: 30px;
- margin: 0 20px 20px 0;
- font-size: 1rem;
-}
-
-
-
+  #icon-social {
+    color: rgb(72, 105, 252);
+    height: 30px;
+    width: 30px;
+    margin: 0 20px 20px 0;
+    font-size: 1rem;
+  }
 }

@@ -8,14 +8,15 @@
     height: 600px;
     position: relative;
     z-index: 400;
-    margin: 1rem 1rem;
+    margin: 1rem 2rem 1rem 1rem;
+    
     padding-bottom: 2rem;
     border: rgba(245, 245, 245, 0.541) 2px solid;
   }
 
   .news-header-container {
       display: flex;
-      margin-left: 1.6rem;
+      margin-left: 1rem;
       padding-top: 1rem;
      
       
@@ -23,5 +24,6 @@
   .news-header {
     color: whitesmoke;
     z-index: 500;
+    font-size: 1.4rem;
   }
 }

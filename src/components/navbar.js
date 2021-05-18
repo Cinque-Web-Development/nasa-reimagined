@@ -30,7 +30,7 @@ const Navbar = () => {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-              >
+              ><img className="icon" src="images/info.png"></img>
                 About
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -106,7 +106,7 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <img className="icon" src="/images/planets.png"></img>
+                <img className="icon" src="/images/planets.png"></img>Solar System
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
@@ -173,17 +173,7 @@ const Navbar = () => {
             </li>
            
           </ul>
-          <form className="d-flex">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-dark" type="submit">
-              Search
-            </button>
-          </form>
+         
         </div>
       </div>
     </nav>

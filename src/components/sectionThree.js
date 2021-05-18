@@ -33,7 +33,7 @@ const SectionThree = () => {
             rel="noopener noreferrer"
             className="volunteer button"
           >
-            Voluneer
+            Volunteer
           </a>
          
         

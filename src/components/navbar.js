@@ -36,6 +36,7 @@ const Navbar = () => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a
+                   id="di"
                     className="dropdown-item"
                     href="https://www.nasa.gov/about/index.html"
                     target="_blank"
@@ -46,6 +47,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
+                   id="di"
                     className="dropdown-item"
                     href="https://www.nasa.gov/topics/history/index.html"
                     target="_blank"
@@ -56,7 +58,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                   id="di"
+                    className="dropdown-item "
                     href="https://www.nasa.gov/topics/benefits/index.html"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -66,7 +69,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                  id="di"
+                    className="dropdown-item "
                     href="https://www.nasa.gov/news/media/info/index.html"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -111,6 +115,7 @@ const Navbar = () => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a
+                   id="di"
                     className="dropdown-item"
                     href="https://www.nasa.gov/topics/solarsystem/index.html"
                     target="_blank"
@@ -121,6 +126,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
+                   id="di"
                     className="dropdown-item"
                     href="https://www.nasa.gov/topics/earth/index.html"
                     target="_blank"
@@ -131,6 +137,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
+                   id="di"
                     className="dropdown-item"
                     href="https://www.nasa.gov/topics/moon-to-mars"
                     target="_blank"
@@ -141,6 +148,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
+                   id="di"
                     className="dropdown-item"
                     href="https://www.nasa.gov/topics/aeronautics/index.html"
                     target="_blank"
@@ -153,6 +161,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a
+               id="di"
                 className="nav-link"
                 href="https://www.nasa.gov/stem"
                 target="_blank"
